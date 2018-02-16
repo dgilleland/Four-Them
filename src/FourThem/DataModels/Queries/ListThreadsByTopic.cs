@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace FourThem.DataModels.Queries
 {
-    public class ListThreadsByTopic { }
+    public class ThreadsByTopic { }
 }

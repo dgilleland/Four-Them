@@ -12,9 +12,9 @@ namespace FourThem.DataModels.Commands
      * So that I can get feedback
      */
     #region Commands -  Start a Discussion
-    public class PostNewThread { }
-    public class EditThread { }
-    public class DeleteThread { }
+    public class ThreadPosting { }
+    public class EditedThread { }
+    public class DeletedThread { }
     #endregion
 
     /*
@@ -23,9 +23,9 @@ namespace FourThem.DataModels.Commands
      * So that I can gain reputation
      */
     #region Commands - Participate in a Discussion
-    public class PostReply { }
-    public class EditReply { }
-    public class DeleteReply { }
+    public class PostedReply { }
+    public class EditedReply { }
+    public class DeletedReply { }
     #endregion
 
     /*
@@ -34,7 +34,7 @@ namespace FourThem.DataModels.Commands
      * So that Discussions are kept clean
      */
     #region Commands - Flag Inappropriate Comments
-    public class FlagReply { }
+    public class FlaggedReply { }
     #endregion
 
     /*
@@ -43,8 +43,8 @@ namespace FourThem.DataModels.Commands
      * So that the forum content is in accordance with the rules of the site
      */
     #region Commands - Flag Inappropriate Comments
-    public class ApproveThread { }
-    public class RejectThread { }
-    public class RemoveReply { }
+    public class ThreadApproval { }
+    public class ThreadRejection { }
+    public class RemovedReply { }
     #endregion
 }
